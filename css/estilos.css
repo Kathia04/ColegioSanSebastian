@@ -9,7 +9,7 @@ header, .nav-container {
 }
 
 #img-logo{
-    width: 40px;
+    width: 60px;
     height: 40px;
 }
 
@@ -28,10 +28,17 @@ header, .nav-container {
 }
 
 /*CUERPO DE LA PÁGINA*/
+hr {
+    background-color: #2D5FAA;
+}
+
+section.section-margin, footer {
+    margin-top: 20px;
+}
 
 h2 {
     color: black;
-    padding-top: 70px;
+    padding-top: 120px;
 }
 
 .texto-justificado {
@@ -80,7 +87,7 @@ h2 {
 
 /*Sistema Gestion Académica*/
 #sistema .row{
-    background-image: linear-gradient(rgba(45, 95, 170, 0.39), rgba(45, 95, 170, 0.39)), url('../img/sga.jpg');
+    background-image: linear-gradient(rgba(45, 95, 170, 0.39), rgba(45, 95, 170, 0.39)), url('../img/sga.webp');
     background-size: cover; 
     background-position: center; 
     height: 90vh; 
@@ -114,18 +121,9 @@ h2 {
     color: #2D5FAA;
 }
 
-
-
-#contacto div.row label {
-    display: block;
-}
-
-.text-element {
-    width: 300px;
-    height: 40px; 
-    padding: 8px; 
-    font-size: 16px;
-    border: 1px solid #2D5FAA; 
+form {
+    width: 75%;
+    margin: auto;
 }
 
 #btn-submit {
@@ -146,6 +144,7 @@ h2 {
 /*FOOTER*/
 footer {
     background-color: #2D5FAA;
+    color: #ffffff;
 }
 
 footer .div-footer {
@@ -153,7 +152,7 @@ footer .div-footer {
 }
 
 footer .div-footer img {
-    width: 120px;
+    width: 200px;
     height: 120px;
     margin-left: 30px;
     margin-bottom: 30px;

@@ -1,0 +1,84 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+}
+
+
+p {
+    text-align: justify;
+}
+
+h4 {
+    text-align: center;
+}
+
+#login-page {
+    background-image: linear-gradient(rgba(240, 242, 245,0.3), rgba(240, 242, 245,0.3)), url('../img/foto-sga.webp');
+}
+
+#sidebar {
+    /*width: 25%;*/
+    background-color: #2D5FAA !important;
+}
+
+.nav-link, .back {
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    background-color: #2D5FAA;
+}
+
+.nav-link:hover, .back:hover {
+    background-color: #4575bd;
+}
+
+#content {
+    background-image: linear-gradient(rgba(240, 242, 245,0.95), rgba(240, 242, 245,0.95)), url('../../img/logo-colegio-sin-fondo.webp');
+    /*width: 75%;*/
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/*Perfil*/
+.img-perfil {
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+.datos-academicos {
+    background-color: rgb(206, 206, 206);
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Matrícula */
+.form-bg {
+    background-color: rgb(206, 206, 206);
+}
+
+.form-label {
+    font-weight: bold;
+    color: #333;
+}
+
+.form-control:disabled,
+.form-select {
+    background-color: #e0e0e0;
+    border: 1px solid #ccc;
+}
+
+.form-control,
+.form-select {
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 18px;
+}
+
+.form-control:focus,
+.form-select:focus {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-color: #007bff;
+}
+
+
+
